@@ -12,7 +12,7 @@ for d in j:
     if(d["name"] == "Old Fashioned"):
         r = d["batters"]["batter"]
         r.append(res.copy())
-        with open('C:\\Users\\hp\\OneDrive\\Desktop\\skill rank\\Assessment-2\\ex5.json', "w", encoding="ANSI") as file:
+        with open('C:\\Users\\hp\\OneDrive\\Desktop\\skill rank\\Assessment-2\\ex5_updated.json', "w", encoding="ANSI") as file:
             json.dump(j, file)
             print(j)
 
