@@ -12,7 +12,8 @@ for d in j:
     if(d["name"] == "Old Fashioned"):
         r = d["batters"]["batter"]
         r.append(res.copy())
-        json.dumps(j, indent = 4)
-        print(j)
+        with open('C:\\Users\\hp\\OneDrive\\Desktop\\skill rank\\Assessment-2\\ex5.json', "w", encoding="ANSI") as file:
+            json.dump(j, file)
+            print(j)
 
 
